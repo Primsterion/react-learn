@@ -5,7 +5,23 @@
   margin: 0;
   padding: 0;
 }
-
+/* Стилизация скроллбара */
+::-webkit-scrollbar-track { 
+  background-color:#32312e; 
+  box-shadow:0px 0px 3px #000 inset; 
+} 
+  
+::-webkit-scrollbar-thumb { 
+  -webkit-border-radius: 5px; 
+  border-radius: 5px; 
+  background-color:#948f7e; 
+  background-position:center; 
+  background-repeat:no-repeat; 
+} 
+  
+::-webkit-scrollbar{ 
+  width: 3px; 
+}
 
 li{
   list-style: none;
@@ -140,6 +156,10 @@ a{
 
   .header .header__nav-mobile, .header__menu__btn, .header__nav-mobile__search{
     display: block;
+  }
+
+  .wrapper{
+    padding: 0 50px;
   }
  
 }

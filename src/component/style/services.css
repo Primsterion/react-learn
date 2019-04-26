@@ -1,0 +1,55 @@
+.services_container{
+    width: 100%;
+    min-height: 375px;
+    background: #fff;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.services_container img{
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+}
+
+
+.border{
+    margin: 20px auto 0 auto;
+    width: 50px;
+    height: 1px;
+    background: #000;
+}
+
+object{
+    margin-bottom: 20px;  
+
+}
+
+
+.service_card{
+    width: 22%;
+}
+
+@media screen and (max-width: 992px){
+    .service_card{
+        width: 48%;
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .service_card{
+        width: 75%;
+        margin: 40px auto 0 auto;
+    }
+
+    .wrapper{
+        padding: 0;
+      }
+}
+
+
